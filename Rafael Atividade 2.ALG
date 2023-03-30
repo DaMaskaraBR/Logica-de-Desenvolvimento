@@ -12,14 +12,15 @@ Var
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    escreval ("quantidade maca:")
-   escreval ("duzia de maca por 1,00")
-   escreval ("menos de uma duzia por 1,30")
+   escreval ("duzia de maca por 1.00")
+   escreval ("menos de uma duzia por 1.30")
    
    leia (quantidademaca)
 se(quantidademaca>=12) entao
-escreva ("saiu por 1,00")
+valor<-(quantidademaca*1)
 senao
-escreval ("saiu por 1,30")
+valor<-(quantidademaca*1.30)
 fimse
+escreval ("o valor da compra e de:",valor:6:2)
 
 Fimalgoritmo
